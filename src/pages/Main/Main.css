@@ -1,0 +1,152 @@
+.slick-track {
+  display: flex;
+}
+
+.slider {
+  /* background-image: url(./images/allef-vinicius-346125-unsplash-min-1170x679.jpg); */
+  width: 100%;
+  height: 679px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.slider-content {
+  position: absolute;
+  bottom: 66px;
+  transform: translateX(-50%);
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.slider .slider-content .post-category {
+  margin-bottom: 16px;
+}
+.slider .slider-content .post-category .post-title {
+  position: relative;
+}
+.slider-content a:hover {
+  color: #98989a;
+}
+.slider-content .post-title::after {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  content: '';
+  width: 30px;
+  height: 2px;
+  background-color: #fff;
+  transform: translateX(-50%);
+}
+.slider-content .post-meta {
+  display: flex;
+  padding-top: 23px;
+}
+.slider-content .post-meta .meta-item {
+  padding-right: 26px;
+  color: #fff;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 11px;
+  position: relative;
+  letter-spacing: 1.1px;
+}
+.slider-content .post-meta .meta-item:nth-child(2)::before,
+.slider-content .post-meta .meta-item:last-child::before {
+  position: absolute;
+  top: 50%;
+  left: -15px;
+  content: '\2022';
+  transform: translateY(-50%);
+}
+.slider-content .post-meta .meta-item .meta-author {
+  font-weight: 400;
+}
+.slider-content .post-meta .meta-item .meta-date {
+  text-transform: uppercase;
+}
+
+.slider-content .post-meta .meta-item .post-share {
+  display: flex;
+}
+.slider-content .post-meta .meta-item .post-share span {
+  margin-left: 8px;
+}
+
+.about-section {
+  padding: 89px 0 85px;
+  background-color: #f6f6f6;
+}
+.about-section .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-section .container .about-cover {
+  width: 49.92%;
+  padding: 0 34px;
+  display: flex;
+  align-items: center;
+}
+.about-section .container .about-cover img {
+  width: 100%;
+  border: 10px solid #fff;
+  vertical-align: middle;
+}
+
+.about-section .container .about-info {
+  padding: 0 34px;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 50.08%;
+}
+.about-section .container .about-info .about-signature {
+  margin-bottom: 36px;
+}
+.about-section .container .about-info .about-description {
+  margin-bottom: 36px;
+}
+.about-section .container .about-info .about-description p {
+  padding: 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #383a3b;
+}
+
+@media (max-width: 768px) {
+  .slider {
+    height: 411px;
+  }
+  .post-meta {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .slider .slider-content .post-title::after {
+    bottom: 55px;
+  }
+  .about-section .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-section .container .about-cover {
+    margin: 0 113px;
+    width: 100%;
+    padding: 0 34px 70px;
+  }
+  .about-section .container .about-info {
+    align-items: center;
+    text-align: center;
+  }
+}
+@media (max-width: 576px) {
+  .slider {
+    height: 300px;
+  }
+  .slider .slider-content {
+    bottom: 15px;
+  }
+  .slider .slider-content .post-title::after {
+    bottom: 65px;
+  }
+}

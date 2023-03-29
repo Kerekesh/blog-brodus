@@ -1,0 +1,4 @@
+.blog .blog-wrap {
+  flex-direction: row-reverse;
+  margin-top: 80px;
+}

@@ -1,0 +1,73 @@
+.footer .footer-top {
+  padding: 89px 0px 85px;
+  background-color: rgb(246, 246, 246);
+  position: relative;
+}
+.footer .footer-top .footer-header {
+  font-family: Poppins;
+  color: #181819;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 1.1px;
+}
+.footer .footer-top .footer-content {
+  justify-content: center;
+  align-items: center;
+}
+.footer .footer-top .footer-content .content-text {
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #696d6e;
+  width: 400px;
+  margin-right: 400px;
+}
+.footer .footer-top .footer-content .footer-image {
+  width: 300px;
+  margin: 0 50px;
+  position: absolute;
+  top: 120px;
+  border: 10px solid #fff;
+  box-sizing: border-box;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.footer .footer-top .footer-content .footer-image img {
+  width: 101%;
+  vertical-align: middle;
+}
+.footer .footer-top .footer-content .subscribe a {
+  align-items: center;
+}
+.footer .footer-top .footer-content .subscribe-btn {
+  height: 60px;
+}
+.footer .footer-top .footer-content .subscribe-btn span {
+  color: #696d6e;
+}
+.footer .footer-top .footer-content .subscribe .icon {
+  left: -5px;
+  font-size: 180px;
+  color: #181819;
+}
+.footer .footer-bottom {
+  height: 100px;
+  padding: 0 10%;
+  padding-bottom: 20px;
+  background-color: #181819;
+  color: #ffffff;
+}
+.footer .footer-bottom .row {
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.footer .footer-bottom .bottom-text {
+  font-family: Raleway;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 26px;
+}
